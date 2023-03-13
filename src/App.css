@@ -1,0 +1,212 @@
+/*NAVBAR*/
+.arriba{
+  position: absolute;
+  width: 100%;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3cm;
+  background: rgb(24, 23, 23);
+}
+.otro{
+  position:absolute;
+  top: 0;
+  left: 45%;
+  width: 30mm;
+  height: 30mm;
+  cursor: pointer;
+}
+.otro:hover{
+  position: absolute;
+  top: -5px;
+  left: 44.9%;
+  width: 31mm;
+  height: 31mm;
+}
+.activador{
+  position: absolute;
+  top: 0.5cm;
+  right: 1cm;
+  font-size: 1cm;
+  background: transparent;
+  border-color: transparent;
+  color: rgb(234, 234, 234);
+  transition: white;
+  cursor: pointer;
+}
+.activador:hover{
+  animation: bounce 2s ease-in-out infinite;
+}
+@keyframes bounce{
+  0%{
+      transform: scale(1);
+  }50%{
+      transform: scale(1.1);
+  }100%{
+      transform: scale(1);
+  }
+}
+.subtitulo{
+  position: absolute;
+  top: 3cm;
+  left: 0;
+  width: 100%;
+  height: 10mm;
+  background-color: #4d555c;
+}
+.sub{
+  position: absolute;
+  top: 0.1cm;
+  left: 20%;
+}
+/*SIDEBAR*/
+*{
+  margin: 0;
+  padding:0;
+  text-decoration: 0;
+}
+.container{
+  display:flex;
+  position: absolute;
+}
+.bar{
+  position: fixed;
+  left: 0px;
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  display:flex;
+  text-decoration: none;
+  color:#ffF;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.8s;
+}
+.link:hover{
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  background: lightskyblue;
+  color: #000; 
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+#creador-img {
+  transition: all 0.5s;
+  object-fit: cover;
+  border-radius: 50%;
+  
+}
+
+
+/*Paginas*/
+.mover{
+  position: absolute;
+  width: 92.5%;
+  top: 4.5cm;
+  left: 2cm;
+}
+.boxes{
+  position:absolute;
+  top: 4cm;
+  left: 100%;
+  text-decoration: none;
+}
+.name{
+  position:absolute;
+  width:100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  background-color: #0000003a;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  opacity: 0;
+  font-size: 24px;
+  padding: 0.5cm 32px;
+}
+.name:hover{
+  opacity:1;
+}
+/*Creador*/
+.info {
+  position: absolute;
+  left: 3cm;
+  background-color: rgba(185, 185, 185, 0.144);
+  width: 27.5cm;
+  height: 11.5cm;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.274);
+}
+.imagenInfo{
+  position: relative;
+  width: 60mm;
+  height: 60mm;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+#author {
+  margin-bottom: 0.25rem;
+}
+#titulos{
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: var(--clr-primary-5);
+  font-size: 0.85rem;
+}
+#frase{
+  margin-bottom: 0.25rem;
+  font-style: italic;
+  color: var(--clr-grey-2);
+  font-size: 0.85rem;
+}
+/*ANIME*/
+.moverCrear{
+  position: absolute;
+  top: 5cm;
+  left: 2cm;
+  width: 90%;
+}
+/*PROXIMAMENTE*/
+.prox{
+  position: absolute;
+  top: -0.5cm;
+  left: -0.7cm;
+  width: 104.2%;
+  height: 12.53cm;
+  background-color: #0000001a;
+}
+.letra{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  text-transform: uppercase;
+}
+.gif{
+  position: absolute;
+  left: 35%;
+}
